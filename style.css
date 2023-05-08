@@ -8,10 +8,10 @@ html {
 }
 
 .container {
-  max-width: 100%;
-  margin: auto;
+  max-width: 800px;
+  margin: 0 auto;
   background: red;
-  height: 162vh;
+  height: 235vh;
   background-image: url("Backround.gif");
   background-position: center;
   background-size: cover;
@@ -25,13 +25,13 @@ html {
 }
 
 .profile>img {
-  width: 300px;
-  height: 380px;
+  width: 260px;
+  height: 340px;
 }
 
 .profile>p {
-  font-size: 9em;
-  font-weight: 300;
+  font-size: 10em;
+  font-weight: 900;
   letter-spacing: 5px;
   margin-top: 200px;
   margin: -20px;
