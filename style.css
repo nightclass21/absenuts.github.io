@@ -8,10 +8,10 @@ html {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   background: red;
-  height: 235vh;
+  height: 100%;
   background-image: url("Backround.gif");
   background-position: center;
   background-size: cover;
@@ -30,8 +30,8 @@ html {
 }
 
 .profile>p {
-  font-size: 10em;
-  font-weight: 900;
+  font-size: 7em;
+  font-weight: 700;
   letter-spacing: 5px;
   margin-top: 200px;
   margin: -20px;
@@ -45,10 +45,10 @@ html {
   font-weight: 500;
   letter-spacing: 5px;
   margin-top: 200px;
-  margin: -20px;
+  margin: 10px;
   color: #f7f8f8;
   text-align: center;
-  padding: -200px;
+  padding: -100px;
 }
 .profile3>p {
   font-size: 2em;
@@ -58,7 +58,7 @@ html {
   margin: 10px;
   color: #f7f7f7;
   text-align: center;
-  padding: -50px;
+  padding: -100px;
 }
 
 .link {
@@ -71,7 +71,7 @@ html {
 .link>a {
   text-decoration: none;
   color: rgb(243, 242, 242);
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   border: 1px solid rgb(19, 18, 18);
   background-color: #eaeaea5b;
