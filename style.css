@@ -8,11 +8,11 @@ html {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
   background: red;
-  height: 100vh;
-  background-image: url("background.gif");
+  height: 360vh;
+  background-image: url("Backround.gif");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -25,19 +25,40 @@ html {
 }
 
 .profile>img {
-  width: 260px;
-  height: 340px;
+  width: 300px;
+  height: 380px;
 }
 
 .profile>p {
   font-size: 10em;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-top: 300px;
+  margin: -20px;
+  color: #fff;
+  text-align: center;
+  padding: -100px;
+}
+
+.profile2>p {
+  font-size: 2em;
   font-weight: 900;
   letter-spacing: 5px;
   margin-top: 200px;
   margin: -20px;
-  color: #fff;
+  color: #f7f8f8;
   text-align: center;
   padding: -200px;
+}
+.profile3>p {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 10px;
+  margin-top: 200px;
+  margin: 10px;
+  color: #f7f7f7;
+  text-align: center;
+  padding: -80px;
 }
 
 .link {
@@ -49,24 +70,25 @@ html {
 
 .link>a {
   text-decoration: none;
-  color: rgb(14, 13, 13);
-  font-size: 24px;
+  color: rgb(243, 242, 242);
+  font-size: 25px;
   text-align: center;
   border: 1px solid rgb(19, 18, 18);
   background-color: #eaeaea5b;
-  border-radius: 100px;
-  margin: 5px 100px;
-  padding: 7px;
+  border-radius: 80px;
+  margin: 8px 50px;
+  padding: 10px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .link>a:hover {
-  background-color: azure;
+  background-color: #b492bf;
 }
 
 .footer {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .footer>i {
